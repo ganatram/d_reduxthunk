@@ -33,7 +33,7 @@ export const userSlice = createSlice({
   initialState, // <-- Use the strongly-typed variable here!
   reducers: {},
 
-  extraReducers: (builder) => {
+  /* extraReducers: (builder) => {
     builder
       .addCase(loginUser.pending, (state) => {
         state.loading = true;
@@ -51,7 +51,7 @@ export const userSlice = createSlice({
         state.user = undefined;
         state.permissions = undefined;
       });
-  },
+  }, */
 });
 
 export default userSlice.reducer;
